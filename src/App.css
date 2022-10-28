@@ -1,0 +1,65 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 100px;
+   background-image: url("https://cdn.pixabay.com/photo/2016/10/25/14/03/clouds-1768967_960_720.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   min-height: 80vh;
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: fit-content;
+   padding: 2rem;
+   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+   margin: 0 auto;
+   border-radius: 8px;
+   background: #fff;
+}
+
+h1 {
+   padding: 1rem;
+}
+h2 {
+   padding: 5px;
+}
+h3 {
+   padding: 5px;
+}
+
+button {
+   margin: 1.5rem 0 0 0;
+   padding: 10px;
+   border-radius: 10px;
+   background-image: url(https://media.giphy.com/media/t7Qb8655Z1VfBGr5XB/giphy.gif);
+   background-position: center;
+   -webkit-background-clip: ;
+}
+
+div img {
+   width: 100px;
+}
+
+.weather--gif {
+   font-family: sans-serif;
+   text-align: center;
+   margin-top: 15px;
+   font-size: 35px;
+   font-weight: 800;
+   color: transparent;
+   background-image: url(https://media.giphy.com/media/t7Qb8655Z1VfBGr5XB/giphy.gif);
+   background-position: center;
+   -webkit-background-clip: text;
+}
