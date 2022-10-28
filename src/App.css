@@ -23,10 +23,10 @@ body {
    align-items: center;
    width: fit-content;
    padding: 2rem;
-   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+   box-shadow: 2px 2px 8px rgb(0 0 0);
    margin: 0 auto;
    border-radius: 8px;
-   background: #fff;
+   background: #ffffffc2;
 }
 
 h1 {
