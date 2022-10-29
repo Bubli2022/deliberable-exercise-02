@@ -50,9 +50,18 @@ const WeatherApi = () => {
                   : weather.main?.temp * (9 / 5) + 32}{" "}
                {isCelcius ? "°C" : "°F"} {weather.weather?.[0].description}
             </h3>
-            <h3> Wind Speed {weather.wind?.speed}m/s</h3>
-            <h3>Clouds: {weather.clouds?.all}%</h3>
-            <h3>Pressure: {weather.main?.pressure} hPa</h3>
+            <h3>
+               <i class="fa-solid fa-wind"></i> Wind Speed {weather.wind?.speed}
+               m/s
+            </h3>
+            <h3>
+               <i class="fa-solid fa-cloud"></i> Today Clouds:{" "}
+               {weather.clouds?.all}%
+            </h3>
+            <h3>
+               <i class="fa-solid fa-temperature-three-quarters"></i> Pressure:{" "}
+               {weather.main?.pressure} hPa
+            </h3>
             <button onClick={() => setIsCelcius(!isCelcius)}>
                Degrees °C / °F {isCelcius}
             </button>

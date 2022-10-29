@@ -45,7 +45,6 @@ button {
    border-radius: 10px;
    background-image: url(https://media.giphy.com/media/t7Qb8655Z1VfBGr5XB/giphy.gif);
    background-position: center;
-   -webkit-background-clip: ;
 }
 
 div img {
@@ -62,4 +61,18 @@ div img {
    background-image: url(https://media.giphy.com/media/t7Qb8655Z1VfBGr5XB/giphy.gif);
    background-position: center;
    -webkit-background-clip: text;
+}
+
+.fa-cloud {
+   position: relative;
+   right: 4px;
+}
+
+.fa-temperature-three-quarters {
+   position: relative;
+   right: -1px;
+}
+
+.fa-solid {
+   color: #307c5b;
 }
